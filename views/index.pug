@@ -1,0 +1,72 @@
+head
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous')
+  title Home | help-uninformed-humans
+  
+  link(rel='apple-touch-icon' sizes='180x180' href='/public/images/apple-touch-icon.png')
+  link(rel='icon' type='image/png' sizes='32x32' href='/public/images/favicon-32x32.png')
+  link(rel='icon' type='image/png' sizes='16x16' href='/public/images/favicon-16x16.png')
+  link(rel='manifest' href='/public/images/site.webmanifest')
+  link(rel='mask-icon' href='/public/images/safari-pinned-tab.svg' color='#5bbad5')
+  link(rel='shortcut icon' href='/public/images/favicon.ico')
+  meta(name='msapplication-TileColor' content='#da532c')
+  meta(name='msapplication-config' content='/public/images/browserconfig.xml')
+  meta(name='theme-color' content='#ffffff')
+  script.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-888FGYR7LX');
+
+  style.
+    @media only screen and (min-width: 1000px) {
+    .responsive {
+    
+    }
+    }
+// Navigation
+nav.navbar.navbar-expand-lg.navbar-light.static-top
+  .container
+    a.navbar-brand(href='/')
+      img(src='../public/images/logo.jpg' alt='Logo' style='width:180px;')
+    button.navbar-toggler.collapsed(type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarResponsive.navbar-collapse.collapse(style='')
+      ul.navbar-nav.ml-auto
+        li.nav-item.active
+          a.nav-link(href='/')
+            | Home
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='/list') | List
+        li.nav-item
+          a.nav-link(href='/about') | About
+div(style='height:1px;background-color:RGB(237, 237, 237);')
+
+
+div(style="width:80%;margin: auto; margin-top:2vh;")
+
+    p.lead.font-weight-normal
+        | What is this?
+    p.lead.font-weight-small
+        | With the ongoing vaccination efforts many people leak their personal information unknowingly on Social Networks. These informations are used by criminals for fake vaccination cards and identity theft. <br> We collect images from certain vaccination related hashtags. These Images are then classified by an Machine Learning Model. If the Model finds personal information the Post gets send to our list. 
+        <br> Since Instagram does not allow automated comments real humans have to warn these people of the dangers.   
+    hr
+    span.lead.font-weight-normal
+        | How?
+    p.lead.font-weight-small
+        | On the next next site you will be provieded with the list and a text you can copy & paste as a comment. After you pasted the comment click the "notified!"-Button. Our Bots will look for the comment, then delete the list entry.
+
+    a.btn.btn-outline-primary(href='/list' style="margin-bottom:5vh;") Show me the list
+
+
+
+
+script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous')
+
+
+
+
+    
