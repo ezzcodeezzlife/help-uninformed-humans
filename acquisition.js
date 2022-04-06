@@ -88,4 +88,4 @@ async function acquisitionRound() {
 setTimeout(function () {
   console.log("STARTING ANTOHER ROUND OF ACQUISITION");
   acquisitionRound();
-}, 1000 * 60 * 60 * 24); //24 hourss
+}, 10); //24 hourss
